@@ -2,13 +2,13 @@
 
 In this report, I'll be going over what happens we use the commands cd, ls, and cat with no arguments, a path to a directory as an argument, and a path to a file as an argument.
 
-#Let's start with cd
+# Let's start with cd
 
 ## No Arguments:
 
 ![Image](ss4.png)
 
-The current working directory is /home. `cd changes directory, so when we list no arguments, nothing happens. Thus, afterwards, the working directory is still /main. This is not an error.
+The current working directory is /home. `cd` changes directory, so when we list no arguments, nothing happens. Thus, afterwards, the working directory is still /main. This is not an error.
 
 ## Directory as Argument:
 
