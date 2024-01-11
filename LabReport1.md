@@ -6,15 +6,15 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 ## No Arguments:
 
-![Image](ss4.jpg)
+![Image](ss4.png)
 
 ## Directory as Argument:
 
-![Image](ss5.jpg)
+![Image](ss5.png)
 
 ## File as Argument:
 
-![Image](ss6.jpg)
+![Image](ss6.png)
 
 # Let's try ls.
 
