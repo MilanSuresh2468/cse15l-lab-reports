@@ -6,4 +6,4 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 #No Arguments:
 
-<img width="203" alt="Screenshot 2024-01-11 at 10 51 42 AM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/c67fd74e-6ecd-4caa-831e-0014262ccb02">
+
