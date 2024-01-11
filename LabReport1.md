@@ -42,7 +42,7 @@ The current working directory is still /home. ls lecture1 lists the files/direct
 
 The current working directory is again /home. ls Hello.java should target Hello.java, but since we are in /main, we cannot access that file. This output is an error.
 
-#Finally, let's look at cat
+# Finally, let's look at cat
 
 ## No arguments
 
