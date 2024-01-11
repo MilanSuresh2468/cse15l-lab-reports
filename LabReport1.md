@@ -14,9 +14,13 @@ The current working directory is /main. cd changes directory, so when we list no
 
 ![Image](ss5.png)
 
+The current working directory is /main. cd changes directory, so saying cd lecture1 changes the working directory to /home/lecture1 as desired. This is not an error.
+
 ## File as Argument:
 
 ![Image](ss6.png)
+
+The current working directory is /main/lecture1. When we type cd Hello.java, since we can't "change directory" to a file. This is an error.
 
 # Let's try ls.
 
