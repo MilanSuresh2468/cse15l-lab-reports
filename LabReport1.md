@@ -8,7 +8,7 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 ![Image](ss4.png)
 
-The current working directory is /home. cd changes directory, so when we list no arguments, nothing happens. Thus, afterwards, the working directory is still /main. This is not an error.
+The current working directory is /home. 'cd changes directory, so when we list no arguments, nothing happens. Thus, afterwards, the working directory is still /main. This is not an error.
 
 ## Directory as Argument:
 
