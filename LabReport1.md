@@ -1,22 +1,22 @@
-## Milan Suresh Lab Report 1
+# Milan Suresh Lab Report 1
 
 In this report, I'll be going over what happens we use the commands cd, ls, and cat with no arguments, a path to a directory as an argument, and a path to a file as an argument.
 
-## Let's start with ls.
+# Let's start with ls.
 
-# No Arguments:
+## No Arguments:
 
 ![Image](ss1.jpg)
 
 The current working directory is /main. ls or "list" lists the files/directories in /main, which is just lecture1. This output is not an error.
 
-# Directory as Argument:
+## Directory as Argument:
 
 ![Image](ss2.jpg)
 
 The current working directory is still /main. ls lecture1 lists the files/directories in lecture1, which is: Hello.class  Hello.java  messages  README. This output is not an error.
 
-# File as Argument
+## File as Argument
 
 ![Image](ss3.jpg)
 
