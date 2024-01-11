@@ -62,6 +62,8 @@ The current working directory is `/home`. When we use `lecture1` as an argument,
 
 The current working directory is `/home/lecture1`. When we use `Hello.java` as an argument, we get the correct output, the content of the `Hello.java file`. This is not an error.
 
+## Now, we're done! From this report, I got some more exposure to the command line and learned how to properly use GitHub!
+
 
 
 
