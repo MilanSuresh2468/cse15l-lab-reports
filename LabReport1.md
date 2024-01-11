@@ -6,4 +6,6 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 #No Arguments:
 
+![Image](ss1.jpg)
+
 
