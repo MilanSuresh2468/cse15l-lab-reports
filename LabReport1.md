@@ -20,7 +20,7 @@ The current working directory is still /main. ls lecture1 lists the files/direct
 
 ![Image](ss3.jpg)
 
-The current working directory is again /main. ls Hello.java should target Hello.java, but since we are in /main, we cannot access that file. This output is not an error.
+The current working directory is again /main. ls Hello.java should target Hello.java, but since we are in /main, we cannot access that file. This output is an error.
 
 
 
