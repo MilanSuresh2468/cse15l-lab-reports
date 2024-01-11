@@ -10,6 +10,10 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 The current working directory is /main. ls or "list" lists the files/directories in /main, which is just lecture1. This output is not an error.
 
-#Directory as Argument:
+# Directory as Argument:
+
+![Image](ss2.jpg)
+
+The current working directory is still /main. ls lecture1 lists the files/directories in lecture1, which is: Hello.class  Hello.java  messages  README. This output is not an error.
 
 
