@@ -4,6 +4,18 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 #Let's start with cd
 
+## No Arguments:
+
+![Image](ss4.jpg)
+
+## Directory as Argument:
+
+![Image](ss5.jpg)
+
+## File as Argument:
+
+![Image](ss6.jpg)
+
 # Let's try ls.
 
 ## No Arguments:
