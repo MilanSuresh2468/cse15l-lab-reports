@@ -4,7 +4,7 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 ## Let's start with ls.
 
-#No Arguments:
+# No Arguments:
 
 ![Image](ss1.jpg)
 
