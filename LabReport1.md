@@ -16,7 +16,12 @@ The current working directory is /main. ls or "list" lists the files/directories
 
 The current working directory is still /main. ls lecture1 lists the files/directories in lecture1, which is: Hello.class  Hello.java  messages  README. This output is not an error.
 
-#File as Argument
+# File as Argument
+
+![Image](ss3.jpg)
+
+The current working directory is again /main. ls Hello.java should target Hello.java, but since we are in /main, we cannot access that file. This output is not an error.
+
 
 
 
