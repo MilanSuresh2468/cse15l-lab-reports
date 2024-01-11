@@ -1,1 +1,1 @@
-Wazzup, Beijing!
+*Wazzup, Beijing!*
