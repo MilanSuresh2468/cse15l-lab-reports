@@ -8,4 +8,6 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 ![Image](ss1.jpg)
 
+The current working directory is /main. ls or "list" lists the files/directories in /main, which is just lecture1. This output is not an error.
+
 
