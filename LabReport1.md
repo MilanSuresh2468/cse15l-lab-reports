@@ -44,6 +44,20 @@ The current working directory is again /main. ls Hello.java should target Hello.
 
 #Finally, let's look at CD
 
+## No arguments
+
+![Image](SS7.png)
+
+## Directory as Argument
+
+![Image](SS8.png)
+
+## File as Argument
+
+![Image](SS9.png)
+
+
+
 
 
 
