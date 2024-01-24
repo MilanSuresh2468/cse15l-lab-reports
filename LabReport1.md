@@ -50,6 +50,10 @@ The current working directory is again `/home`. `ls Hello.java` should target `H
 
 The current working directory is `/home`. When we have no arguments, `cat` or "concatenate" does not know what to display the contents of, so it does nothing while it waits for an input. The output is not necessarily an error, but this is an incorrect use of `cat`. Let's see what happens if we type something in after.
 
+![Image](ss10.jpg)
+
+The input gets repeated back at us! Your input gets read and spit back as output.
+
 ## Directory as Argument
 
 ![Image](SS8.png)
