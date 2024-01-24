@@ -8,7 +8,7 @@ In this report, I'll be going over what happens we use the commands cd, ls, and 
 
 ![Image](ss4updated.jpg)
 
-The current working directory is `/home/lecture1/messages`. `cd` means changes directory, and it looks like that when we list no arguments, the working directory is changed to `home`. This is not an error.
+The current working directory is `/home/lecture1/messages`. `cd` means changes directory, and it looks like that when we list no arguments, the working directory is changed to `/home`. This is not an error.
 
 ## Directory as Argument:
 
