@@ -20,7 +20,7 @@ The current working directory is `/home`. `cd` changes directory, so saying `cd 
 
 ![Image](ss6.png)
 
-The current working directory is `/home/lecture1`. When we type `cd Hello.java`, since we can't "change directory" to a file. This is an error.
+The current working directory is `/home/lecture1`. When we type `cd Hello.java`, we get an error since we can't "change directory" to a file. This is an error.
 
 # Let's try ls.
 
