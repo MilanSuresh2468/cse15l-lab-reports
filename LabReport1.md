@@ -28,7 +28,7 @@ The current working directory is `/home/lecture1`. When we type `cd Hello.java`,
 
 ![Image](ss1.jpg)
 
-The current working directory is `/home`. `ls` or "list" lists the files/directories in `/main`, which is just `lecture1`. This output is not an error.
+The current working directory is `/home`. `ls` or "list" lists the files/directories in `/home`, which is just `lecture1`. This output is not an error.
 
 ## Directory as Argument:
 
@@ -40,7 +40,7 @@ The current working directory is still `/home`. `ls lecture1` lists the files/di
 
 ![Image](ss3.jpg)
 
-The current working directory is again `/home`. `ls Hello.java` should target `Hello.java`, but since we are in `/main`, we cannot access that file. This output is an error.
+The current working directory is again `/home`. `ls Hello.java` should target `Hello.java`, but since we are in `/home`, we cannot access that file. This output is an error.
 
 # Finally, let's look at cat
 
@@ -48,7 +48,7 @@ The current working directory is again `/home`. `ls Hello.java` should target `H
 
 ![Image](SS7.png)
 
-The current working directory is `/home`. When we have no arguments, `cat` or "concatenate" does not know what to display the contents of, so it does nothing while it waits for an input. The output is not necessarily an error, but this is an incorrect use of `cat`.
+The current working directory is `/home`. When we have no arguments, `cat` or "concatenate" does not know what to display the contents of, so it does nothing while it waits for an input. The output is not necessarily an error, but this is an incorrect use of `cat`. Let's see what happens if we type something in after.
 
 ## Directory as Argument
 
