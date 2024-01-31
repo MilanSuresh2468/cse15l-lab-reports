@@ -66,8 +66,16 @@ Now, let's use add-mesage to add some messages.
 
 <img width="1440" alt="Screenshot 2024-01-30 at 11 17 43 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/32e4b2fb-4cdd-4bf4-8bf2-b4112a8e0af2">
 
-Our query was specified with `/add-message?s=Hello%20World&user=HumanBoy`. A `parameters` array (`"s"`,`"Hello World&user"`,`"HumanBoy"`) is created by splitting the query with `"=`, and the `firstArg` array is created by splitting the first argument of `parameters` with `&` (`"Hello World"`, `"user"`).
+Our query was specified with `/add-message?s=Hello World&user=HumanBoy`. A `parameters` array (`"s"`,`"Hello World&user"`,`"HumanBoy"`) is created by splitting the query with `"=`, and the `firstArg` array is created by splitting the first argument of `parameters` with `&` (`"Hello World"`, `"user"`).
 
-`String current` is created to hold the message. `current+=parameters[2]+": " + firstArg[0];` adds the formatted message. Later, `current+="\n";` adds the line skip.
+`String current` is created to hold the message. `current+=parameters[2]+": " + firstArg[0];` adds the formatted message, `"HumanBoy: Hello+World"`. Later, `current+="\n";` adds the line skip. Later `messages.add` is called with the argument of `current`. Then, we call `this.printMessages` to print all the messages so far.
 
 <img width="1438" alt="Screenshot 2024-01-30 at 11 18 19 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/966087ae-2e9d-46b3-9fd1-b60682bae98e">
+
+Our query was specified with `/add-message?s=Hola, amigos&user=Diego`. A `parameters` array (`"s"`,`"Hola, amigos&user"`,`"Diego"`) is created by splitting the query with `"=`, and the `firstArg` array is created by splitting the first argument of `parameters` with `&` (`"Hola, amigos"`, `"user"`).
+
+`String current` is created to hold the message. `current+=parameters[2]+": " + firstArg[0];` adds the formatted message, `Diego: Hola,+amigos`. Later, `current+="\n";` adds the line skip. Later `messages.add` is called with the argument of `current`. Then, we call `this.printMessages` to print all the messages so far.
+
+# Part 2
+
+In this report, I learned how to work with URLs and put text onto a server. Previously, we used code that was given to us, but I think that by re-implementing a lot of it myself, I was forced to learn how to work with URLs.
