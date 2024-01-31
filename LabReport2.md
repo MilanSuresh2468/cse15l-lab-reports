@@ -2,7 +2,7 @@
 
 # Part 1
 
-In this part, we will be creating a web server called ChatServer. Attached below is the code:
+In this part, we will be creating a web server called ChatServer. This ChatServer calls upon the Server.java file used previously in this class. Attached below is the code:
 
 ```
 import java.io.IOException;
@@ -64,4 +64,10 @@ class ChatServer {
 ```
 Now, let's use add-mesage to add some messages.
 
+<img width="1440" alt="Screenshot 2024-01-30 at 11 17 43 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/32e4b2fb-4cdd-4bf4-8bf2-b4112a8e0af2">
 
+Our query was specified with `/add-message?s=Hello%20World&user=HumanBoy`. A `parameters` array (`"s"`,`"Hello World&user"`,`"HumanBoy"`) is created by splitting the query with `"=`, and the `firstArg` array is created by splitting the first argument of `parameters` with `&` (`"Hello World"`, `"user"`).
+
+`String current` is created to hold the message. `current+=parameters[2]+": " + firstArg[0];` adds the formatted message. Later, `current+="\n";` adds the line skip.
+
+<img width="1438" alt="Screenshot 2024-01-30 at 11 18 19 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/966087ae-2e9d-46b3-9fd1-b60682bae98e">
