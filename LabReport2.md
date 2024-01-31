@@ -78,4 +78,15 @@ Our query was specified with `/add-message?s=Hola, amigos&user=Diego`. A `parame
 
 # Part 2
 
+<img width="454" alt="Screenshot 2024-01-30 at 11 45 50 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/66cf1c9f-f9e3-446d-bf71-56bd088aeb4f">
+
+<img width="630" alt="Screenshot 2024-01-30 at 11 46 49 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/c178a6db-47c3-4222-8f37-00cb60bedd84">
+
+
+<img width="469" alt="Screenshot 2024-01-30 at 11 47 37 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/307e8760-6ea2-4fa4-b836-a03c8f9a4a40">
+
+
+
+# Part 3
+
 In this report, I learned how to work with URLs and put text onto a server. Previously, we used code that was given to us, but I think that by re-implementing a lot of it myself, I was forced to learn how to work with URLs.
