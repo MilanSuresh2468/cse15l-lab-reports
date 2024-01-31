@@ -2,6 +2,8 @@
 
 # Part 1
 
+In this part, we will be creating a web server called ChatServer. Attached below is the code:
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -22,8 +24,6 @@ class Handler implements URLHandler {
             String[] firstArg = parameters[1].split("&");
             String current = "";
             current+=parameters[2]+": " + firstArg[0];
-            System.out.println(parameters[1]);
-            System.out.println(firstArg[0]);
             current+="\n";
 
             messages.add(current);
@@ -61,5 +61,7 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-
 ```
+Now, let's use add-mesage to add some messages.
+
+
