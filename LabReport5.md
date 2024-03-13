@@ -23,11 +23,11 @@ It looks like that the code works as required with `3`, a prime number. If the `
 4. Setup
    
 File Structure:
-`Documents`
-  `LabReport5`
-     `comprun.sh`
-     `Sieve.java`
-     `Sieve.class`
+`Documents
+  LabReport5
+     comprun.sh
+     Sieve.java
+     Sieve.class`
 
 Contents of comprun.sh 
 ```
