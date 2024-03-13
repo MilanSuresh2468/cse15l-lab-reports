@@ -21,13 +21,9 @@ Hi, so it looks like your `comprun.sh` file ran the code as required, so it most
 It looks like that the code works as required with `3`, a prime number. If the `if` statement to check if the given input is a unit succeeds, it looks like the line to output the required message never runs since is not included in the `if` statement.
 
 4. Setup
+<img width="152" alt="Screenshot 2024-03-12 at 8 45 16 PM" src="https://github.com/MilanSuresh2468/cse15l-lab-reports/assets/73302110/6c510239-e9c0-413e-b54b-c0d2a47a1938">
    
-File Structure:
-Documents
-  LabReport5
-     comprun.sh
-     Sieve.java
-     Sieve.class
+
 
 Contents of comprun.sh 
 ```
