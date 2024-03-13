@@ -50,6 +50,7 @@ public class Sieve {
                     if(given%x==0){
                         System.out.println("Not a prime!");
                         System.out.println("Success! Input another integer to check if it's a prime.");
+                        return;
                     }
                 }
                 System.out.println("Prime!");
